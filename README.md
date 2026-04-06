@@ -4,5 +4,5 @@ Student coder focused on automation, cybersecurity, and academic excellence. Thi
 
 ## Preview
 
-![Portfolio Screenshot 1](images/img1.png)
-![Portfolio Screenshot 2](images/img2.png)
+![Portfolio Screenshot 1](img1.png)
+![Portfolio Screenshot 2](img2.png)
