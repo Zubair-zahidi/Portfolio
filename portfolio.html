@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Zubair Zahidi · Full‑Stack & Security</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Inter + Fira Code (clean, technical) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="container">
+  <nav class="navbar">
+    <div class="logo">zubair.zahidi<span style="color:#1e293b;">()</span></div>
+    <div class="menu-icon" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#cyber-focus">security</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-badge"><i class="fas fa-shield-alt"></i> full‑stack · security engineer</div>
+    <h1>Zubair Zahidi<br><span class="accent">building resilient systems</span></h1>
+    <p>Full‑stack developer with deep cybersecurity practice — Python, JavaScript, and modern web stacks. I integrate security into every layer, from UI to database.</p>
+    <div class="btn-group">
+      <a href="https://github.com/Zubair-zahidi" class="btn btn-primary"><i class="fas fa-code"></i> featured work</a>
+      <a href="https://t.me/zubairzahidi" class="btn btn-outline"><i class="fas fa-paper-plane"></i> connect</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title"><i class="fas fa-user-astronaut"></i> about</h2>
+    <div class="about-card">
+      <p style="font-size: 1.05rem; line-height: 1.5;">I am a versatile developer with expertise in Python, JavaScript, and modern web technologies. My skill set spans both frontend and backend development, allowing me to build complete, secure, and scalable applications. I specialize in integrating cybersecurity practices into web projects, ensuring that applications are not only functional but also resilient against vulnerabilities.</p>
+      <div style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <span><i class="fas fa-lock" style="color:#0f172a;"></i> secure by design</span>
+        <span><i class="fas fa-code-branch"></i> clean, maintainable code</span>
+        <span><i class="fas fa-cloud-upload-alt"></i> full‑stack architecture</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section id="skills">
+    <h2 class="section-title"><i class="fas fa-microchip"></i> technical skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3><i class="fab fa-html5"></i> Frontend</h3>
+        <div class="skill-badge-list">
+          <span>HTML5/CSS3</span><span>JavaScript (ES6+)</span><span>React</span><span>Vite.js</span><span>Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fas fa-server"></i> Backend</h3>
+        <div class="skill-badge-list">
+          <span>Python (Flask/Django)</span><span>Express.js</span><span>REST APIs</span><span>Node.js</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fas fa-shield-virus"></i> Cybersecurity</h3>
+        <div class="skill-badge-list">
+          <span>Web Security Testing</span><span>Vulnerability Assessment</span><span>Secure Coding</span><span>OWASP Top10</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fas fa-database"></i> Other</h3>
+        <div class="skill-badge-list">
+          <span>SQL / MongoDB</span><span>Git/GitHub</span><span>CLI tools</span><span>Docker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cybersecurity Focus -->
+  <section id="cyber-focus">
+    <h2 class="section-title"><i class="fas fa-bug"></i> cybersecurity focus</h2>
+    <div class="cyber-card">
+      <p>I have hands-on experience in web security vulnerability checking, including testing for common issues such as <strong>SQL injection, XSS, CSRF, and insecure authentication flows</strong>. My projects often combine security tools with web interfaces, making them practical for both educational and professional use.</p>
+      <div style="margin-top: 1.2rem; display: flex; gap: 1.5rem; flex-wrap: wrap;">
+        <span><i class="fas fa-eye"></i> threat modeling</span>
+        <span><i class="fas fa-shield-alt"></i> zero‑trust principles</span>
+        <span><i class="fas fa-chart-line"></i> vulnerability assessment</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section (image placeholders) -->
+  <section id="projects">
+    <h2 class="section-title"><i class="fas fa-folder-open"></i> projects</h2>
+    <div class="projects-grid">
+      <!-- Web Security Scanner -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://www.neit.edu/wp-content/uploads/2023/02/Types-of-Cyber-Security-Threats-Cyber-attack-concept-background.jpeg" alt="Security Scanner preview">
+        </div>
+        <div class="project-info">
+          <h3>🔒 Web Security Scanner</h3>
+          <p>Python + Flask backend with React frontend that scans for SQLi, XSS, CSRF. Interactive dashboard with risk scoring.</p>
+          <div class="project-tech"><span>Flask</span><span>React</span><span>JWT</span><span>BeautifulSoup</span></div>
+          <div class="project-links"><a href="#"><i class="fab fa-github"></i> code</a><a href="#"><i class="fas fa-external-link-alt"></i> demo</a></div>
+        </div>
+      </div>
+      <!-- Port Scanner Web App -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://cdn.prod.website-files.com/635e632477408d12d1811a64/6953ddebb07a70411d0c2d8c_what-is-port-scan.jpg" alt="Port Scanner">
+        </div>
+        <div class="project-info">
+          <h3>🌐 Port Scanner Web App</h3>
+          <p>Interactive tool using Node.js + WebSockets to scan IP ranges, detect open ports, banner grabbing. Real‑time results.</p>
+          <div class="project-tech"><span>Express</span><span>Socket.io</span><span>nmap</span></div>
+          <div class="project-links"><a href="#"><i class="fab fa-github"></i> repo</a><a href="#"><i class="fas fa-globe"></i> live</a></div>
+        </div>
+      </div>
+      <!-- Password Strength Analyzer -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://www.shutterstock.com/image-photo/password-strength-signup-security-business-600nw-2683825595.jpg" alt="Password Analyzer">
+        </div>
+        <div class="project-info">
+          <h3>🔑 Password Strength Analyzer</h3>
+          <p>Entropy calculation, bcrypt hashing, dictionary checks and real‑time feedback. Built with Vue.js + Flask REST API.</p>
+          <div class="project-tech"><span>Vue.js</span><span>Flask</span><span>zxcvbn</span></div>
+          <div class="project-links"><a href="#"><i class="fab fa-github"></i> source</a><a href="#"><i class="fas fa-chart-simple"></i> try</a></div>
+        </div>
+      </div>
+      <!-- Log Analyzer Dashboard -->
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://www.shutterstock.com/image-photo/person-using-laptop-glowing-dashboard-600nw-2717099299.jpg" alt="Log Analyzer">
+        </div>
+        <div class="project-info">
+          <h3>📊 Log Analyzer Dashboard</h3>
+          <p>Full‑stack SIEM-style dashboard parses system/access logs, visualizes suspicious activity (brute force, failed logins).</p>
+          <div class="project-tech"><span>Django</span><span>D3.js</span><span>PostgreSQL</span></div>
+          <div class="project-links"><a href="#"><i class="fab fa-github"></i> audit</a><a href="#"><i class="fas fa-chart-line"></i> dashboard</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I Deliver -->
+  <section>
+    <h2 class="section-title"><i class="fas fa-cubes"></i> what i deliver</h2>
+    <div class="deliver-grid">
+      <div class="deliver-item"><i class="fas fa-code-branch"></i><h4>Clean, maintainable code</h4><p>Modular architecture & full documentation.</p></div>
+      <div class="deliver-item"><i class="fas fa-shield-haltered"></i><h4>Secure‑by‑design</h4><p>Threat modeling & OWASP ready.</p></div>
+      <div class="deliver-item"><i class="fas fa-layer-group"></i><h4>Full‑stack solutions</h4><p>React, Node, Python — end to end.</p></div>
+      <div class="deliver-item"><i class="fas fa-robot"></i><h4>Automation & docs</h4><p>CI/CD pipelines, deployment scripts.</p></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title"><i class="fas fa-envelope"></i> contact</h2>
+    <div class="contact-links">
+      <a href="https://github.com/Zubair-zahidi" class="contact-card"><i class="fab fa-github"></i> <span>/zubair-zahidi</span></a>
+      <a href="https://x.com/ZahidiZuba76338" class="contact-card"><i class="fab fa-twitter"></i> <span>zubair-zahidi</span></a>
+      <a href="#" class="contact-card"><i class="fas fa-envelope"></i> <span>zahidizubair0@gmail.com</span></a>
+    </div>
+    <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem;">
+      <i class="fas fa-terminal"></i> zubair.zahidi — secure full‑stack engineering
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Zubair Zahidi · full‑stack & cybersecurity portfolio</p>
+  </footer>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
