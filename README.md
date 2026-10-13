@@ -1,12 +1,25 @@
-# Portfolio
+# Zubair Zahidi — Portfolio
 
-Student coder focused on automation, cybersecurity, and academic excellence. This portfolio reflects ambition, discipline, and preparation for elite universities. It highlights projects that combine creativity with technical skill, showcasing a journey of growth and determination.
+A personal portfolio website presenting projects and development interests. Built with HTML, CSS, and JavaScript, it explores how layout, typography, and interaction can communicate a developer's work.
 
-## Preview
+![Portfolio preview](img1.png)
 
-![Portfolio Screenshot 1](img1.png)
-![Portfolio Screenshot 2](img2.png)
+## View locally
 
+Clone the repository and open `portfolio.html` in a browser. For a local server, run:
 
-![Portfolio Screenshot 1](images/img1.png)
-![Portfolio Screenshot 2](images/img2.png)
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/portfolio.html`.
+
+## Files
+
+- `portfolio.html` — Page content and structure.
+- `style.css` — Appearance and layout.
+- `script.js` — Browser interactions.
+
+![Additional portfolio preview](img2.png)
+
+Explore [Zubair's current GitHub profile](https://github.com/Zubair-zahidi) for recent projects and releases.
